@@ -17,42 +17,33 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
-  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="linux,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" groups="pdk,linux,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="prebuilts/misc" name="CyanogenMod/android_prebuilts_misc" groups="pdk" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
+  <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
+  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />  
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" >
+    <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
+  </project>
 </manifest>
